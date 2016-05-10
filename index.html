@@ -1,0 +1,241 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplicacion siete</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temapp1.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<style type="text/css">
+body,td,th {
+	color: #000;
+}
+body {
+	background-color: #FFF;
+}
+</style>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/13.jpg','imagenes/38.jpg','imagenes/45.jpg','imagenes/10.jpg','imagenes/12.jpg','imagenes/14.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" 	   data-back-btn-theme="b">
+<h1><center>Batalla del 5 de mayo</center></h1>
+</div>
+
+<div data-role="main" class="ui-content">
+
+<div data-role="collapsible" data-content-theme="false">
+
+<h1>IMAGENES DE LA BATALLA DE PUEBLA</h1>
+<div>
+</div>
+
+<<!-- Start WOWSlider.com -->
+<iframe src="visor/index.html" style="width:960px;height:250px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+</div>
+</div>
+
+<div>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Pequeño relato de la batalla del 5 de mayo</h2>
+<p>muestra el relato</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Personajes importantes de la batalla de puebla</h2>
+<p>muestra la informacion</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Fecha de la batalla de puebla</h2>
+<p>Muestra la fecha</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Lugar donde se llevo acabo la batalla del 5 de mayo</h2>
+<p>Muestra la informacion</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>En la actualidad que es ahora del fuerte de guadalupe</h2>
+<p>Muestra la informacion</p>
+</a>
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="a">
+  <div>
+  <img src="imagenes/persona_azul.png" width="46" height="46">
+  </div>
+  <div>
+  <h4>Aplicacion siete</h4>
+  <h4>Juan Pablo Gonzalez Varela</h4>
+  </div>
+  </div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>INFORMACION DE LA BATALLA DE PUEBLA</h1>
+ 
+  </div>
+  <div data-role="content" align="center">
+  <div>
+  <h2>Una de las más grandes batallas que haya librado nuestro país, tuvo lugar en la tres veces Heroica Ciudad de Puebla de Zaragoza. De ella, como veremos posteriormente, destacaron grandiosas personas que se convirtieron en héroes nacionales. La Batalla del Cinco de Mayo nos recuerda que alguna vez, hace ya muchos años, fuimos capaces de, aunque sólo fuera por una ocasión, vencer al más fuerte del mundo. La que sigue es una historia digna de novela, la historia de unos indígenas que, con coraje y valor lucharon contra el entonces ejército más poderoso del mundo, y mejor aún, lo venció; la historia de un grupo de hombres de pueblo armados que no tuvo reparo en defender la milenaria tierra de Cuahutémoc, sus hogares y su libertad, tan necesitada de victorias militares sobre alguna potencia 
+extranjera..</h2>
+  <br>
+  
+  <div>
+    <p>&nbsp;</p>
+    <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('iojjdythd','','imagenes/10.jpg',1)"><img src="imagenes/9.jpg" width="392" height="300" id="iojjdythd"></a></p>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gfJjtQwD4Bg" frameborder="0" allowfullscreen></iframe>
+  </div>
+  </div>
+  </div>
+  <div data-role="footer" data-theme="a">
+  <h4>Gonzalez Varela Juan Pablo</h4>
+  </div>
+</div>
+  </div>
+ 
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>Personajes Importantantes de la batalla del 5 de mayo</h1>
+ </div>
+<div data-role="content" align="center">
+ <div>
+ <h2>
+ <br>
+1. De Francia, Charles Ferdinad de Latrille conde de Lorencez. 
+<br>
+2. De Mexico, Ignacio Zaragoza, Felipe Berriozabal, Porfirio Diaz, Santiago Tapia, Ignacio Mejia, Miguel Negrete.
+ </h2></div>
+ 
+ <div>
+ <center>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('loutf','','imagenes/12.jpg',1)"><img src="imagenes/11.jpg" width="356" height="480" id="loutf"></a>
+ </center> </div>
+</div>
+ <div data-role="footer" data-theme="a">
+ <h4>Gonzalez Varela Juan Pablo</h4>
+ </div>
+</div>
+ </div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>Fecha de la batalla de puebla</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h3>5 de mayo de 1862
+ <br>
+  fue un combate librado el 5 de mayo de 1862 en las cercanías de la ciudad de Puebla, entre los ejércitos de la República Mexicana
+  </h3></div>
+<div>
+ <center>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('iuytgg','','imagenes/14.jpg',1)"><img src="imagenes/13.png" width="672" height="372" id="iuytgg"></a>
+ </center> 
+ </div>
+ </div>
+ <div data-role="footer" data-theme="a">
+ <h4>Gonzalez Varela Juan Pablo</h4>
+ </div>
+</div>
+ </div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>lugar donde se llevo acabo la batalla del 5 de mayo</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h2>
+ <center></center>
+ <br>
+ La batalla tuvo lugar en la actual ciudad de Puebla de Zaragoza
+<br>
+Fuerte de Guadalupe
+</h2>
+ <div>
+ <center>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('liojkf','','imagenes/45.jpg',1)"><img src="imagenes/15.jpg" width="640" height="398" alt="luid"></a>
+ </center> </div>
+ 
+ </div>
+ </div>
+ <div data-role="footer" data-theme="a">
+ <h4>Gonzalez Varela Juan Pablo</h4>
+ </div>
+</div>
+ </div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>lugares</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div>
+ <h2>
+Enla actualidad el fuerte de guadalupe donde se llevo cabo la batalla del 5 de mayo es ahora un templo militar
+</h2>
+
+ <div>
+ <center>
+ </center> </div>
+ </div>
+ </div>
+<center> <img src="imagenes/16.JPG" width="730" height="500" alt="uytr"></center>
+ <center>
+ </center>
+ <div><a href="http://www.udg.mx/es/efemerides/05-mayo ">http://www.udg.mx/es/efemerides/05-mayo </a></div
+ ><div data-role="footer" data-theme="a">
+   <h4>Gonzalez Varela Juan Pablo</h4>
+ </div>
+</div>
+ </div>
+ 
+
+ 
+
+
+
+</body>
+ </html>
